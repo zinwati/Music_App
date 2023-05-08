@@ -5,7 +5,8 @@
     list-style-type: none;
 }
 body{
-    background-color: aqua;
+  background: linear-gradient(90deg, rgba(227,227,113,1) 27%, rgba(49,131,210,1) 62%, rgba(145,51,224,1) 100%);
+
 }
 .topnav{
   background-color: aliceblue;
@@ -21,7 +22,7 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  color:#111;
 }
 
 li {
@@ -30,28 +31,28 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(29, 5, 5);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+ border-bottom: 1px solid #111;
 }
 
 
 .leftcolumn {   
   float: left;
   width: 50%;
-  background-color: rgb(182, 211, 115);
+  padding:30px;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
   width: 50%;
-  background-color: #f1f1f1;
+  padding:30px;
   padding-left: 20px;
 }
   
@@ -63,6 +64,46 @@ li a:hover:not(.active) {
   }
 
 
+  .logo{
+    margin:0 auto;
+    padding:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+    color:rgb(136, 16, 16);
+  }
+
+  .search{
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    margin:10px;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.play {
+    padding:10px;
+    margin:10px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color:#111;
+    border:1px solid #777;
+    text-decoration: none;
+  }
 /*Footer*/
 .footer {
     background-color: #F1F1F1;
